@@ -1,0 +1,19 @@
+{
+  "git": {
+    "deploymentEnabled": {
+      "main": false,
+      "master": false,
+      "development": true
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "regions": ["sfo1"]
+} 
